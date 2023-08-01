@@ -17,5 +17,7 @@ print(f'\n{nome}: \nVida: {vida}/{vida_total}\nEnergia: {energia}/{energia_total
 
 print(f'\nSUBZERO: \nVida: {vida_rival}/{vida_total}\nEnergia: {energia_rival}/{energia_total}\nAtaques: {ataques_rival[1][0]}, {ataques_rival[2][0]}, {ataques_rival[3][0]}')
 
-ataque_esc = int(input(f'\n[SELECIONE SEU ATAQUE!]\n1. {ataques[1][0]}\n2. {ataques[2][0]}\n3. {ataques[3][0]} '))
+ataque_esc = int(input(f'\n[SELECIONE SEU ATAQUE!]\n1. {ataques[1][0]}\n2. {ataques[2][0]}\n3. {ataques[3][0]}\n'))
+
+ataque_esc_rival = random.choice([1,3])
 
