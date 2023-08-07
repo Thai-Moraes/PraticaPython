@@ -2,6 +2,9 @@ import random
 import time
 import os
 
+# Talvez refazer isso como um jogo de Pokemon (ou Digimon se eu quiser ser do contra)
+# Adicionar níveis e batalhas
+
 print(r"""
    _____                 __         .__     ____  __.            ___.           __
   /     \   ____________/  |______  |  |   |    |/ _|____   _____\_ |__ _____ _/  |_
